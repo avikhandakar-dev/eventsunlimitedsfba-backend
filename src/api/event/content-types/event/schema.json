@@ -29,10 +29,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "live": {
       "type": "boolean",
       "default": true,
@@ -53,6 +49,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

@@ -17,11 +17,7 @@
       "required": true,
       "unique": true
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
-    "thumbnail": {
+    "coverPhoto": {
       "type": "media",
       "multiple": true,
       "required": true,
@@ -31,6 +27,10 @@
     },
     "subtitle": {
       "type": "text"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
