@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_cta_homes",
+  "info": {
+    "displayName": "Home",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.button",
+      "required": true
+    }
+  }
+}

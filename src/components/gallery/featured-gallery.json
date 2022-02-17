@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_gallery_featured_galleries",
+  "info": {
+    "displayName": "FeaturedGallery",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "galleries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gallery.gallery"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

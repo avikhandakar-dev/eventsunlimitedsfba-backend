@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_ui_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "quidditch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Primary",
+        "Secondary"
+      ],
+      "default": "Primary",
+      "required": true
+    }
+  }
+}

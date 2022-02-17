@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_carousel_clients",
+  "info": {
+    "displayName": "Clients",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}
