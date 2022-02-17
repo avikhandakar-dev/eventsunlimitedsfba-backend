@@ -11,8 +11,8 @@
       "type": "string",
       "required": true
     },
-    "subtitle": {
-      "type": "string"
+    "subHeading": {
+      "type": "text"
     },
     "services": {
       "type": "relation",
@@ -20,19 +20,20 @@
       "target": "api::service.service"
     },
     "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "coverPhoto": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": true,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

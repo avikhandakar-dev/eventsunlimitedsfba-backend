@@ -12,11 +12,11 @@
       "relation": "oneToMany",
       "target": "api::gallery.gallery"
     },
-    "title": {
+    "heading": {
       "type": "string",
       "required": true
     },
-    "subtitle": {
+    "subHeading": {
       "type": "string"
     }
   }

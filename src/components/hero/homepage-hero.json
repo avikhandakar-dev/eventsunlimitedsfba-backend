@@ -7,14 +7,14 @@
   },
   "options": {},
   "attributes": {
-    "heading1": {
+    "heading": {
       "type": "string",
       "required": true
     },
-    "heading2": {
+    "subHeading": {
       "type": "string"
     },
-    "subtitle": {
+    "description": {
       "type": "text",
       "required": true
     },
