@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.homepage-hero",
+      "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo-information"
+    },
+    "Why": {
+      "displayName": "Features",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.features"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.home"
+    }
+  }
+}
