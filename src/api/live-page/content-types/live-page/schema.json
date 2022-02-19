@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "live_pages",
+  "info": {
+    "singularName": "live-page",
+    "pluralName": "live-pages",
+    "displayName": "Live Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "displayName": "Live",
+      "type": "component",
+      "repeatable": false,
+      "component": "section.live",
+      "required": true
+    },
+    "CTA": {
+      "displayName": "Live",
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.live"
+    }
+  }
+}

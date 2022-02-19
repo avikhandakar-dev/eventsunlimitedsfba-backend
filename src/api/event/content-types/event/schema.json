@@ -19,7 +19,7 @@
     },
     "venue": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "date": {
       "type": "date",
@@ -27,11 +27,6 @@
     },
     "link": {
       "type": "string",
-      "required": true
-    },
-    "live": {
-      "type": "boolean",
-      "default": true,
       "required": true
     },
     "coverPhoto": {
@@ -51,7 +46,12 @@
       ]
     },
     "description": {
-      "type": "richtext",
+      "type": "text",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
       "required": true
     }
   }
