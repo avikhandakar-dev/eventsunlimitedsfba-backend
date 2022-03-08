@@ -53,6 +53,9 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "paypalLink": {
+      "type": "string"
     }
   }
 }
