@@ -1,5 +1,6 @@
 module.exports = ({ env }) => ({
+  url: "https://eventsunlimitedsfba-backend-production.up.railway.app/admin",
   auth: {
-    secret: env('ADMIN_JWT_SECRET', 'aa63c818defbe3c5270d4d319909b54c'),
+    secret: env("ADMIN_JWT_SECRET", "aa63c818defbe3c5270d4d319909b54c"),
   },
 });
